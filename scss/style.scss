@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/subset-TTNorms-Bold.eot');
+    src: url('../fonts/subset-TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-TTNorms-Bold.woff2') format('woff2'),
+        url('../fonts/subset-TTNorms-Bold.woff') format('woff'),
+        url('../fonts/subset-TTNorms-Bold.ttf') format('truetype'),
+        url('../fonts/subset-TTNorms-Bold.svg#TTNorms-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/subset-TTNorms-Medium.eot');
+    src: url('../fonts/subset-TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-TTNorms-Medium.woff2') format('woff2'),
+        url('../fonts/subset-TTNorms-Medium.woff') format('woff'),
+        url('../fonts/subset-TTNorms-Medium.ttf') format('truetype'),
+        url('../fonts/subset-TTNorms-Medium.svg#TTNorms-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/subset-TTNorms-Regular.eot');
+    src: url('../fonts/subset-TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-TTNorms-Regular.woff2') format('woff2'),
+        url('../fonts/subset-TTNorms-Regular.woff') format('woff'),
+        url('../fonts/subset-TTNorms-Regular.ttf') format('truetype'),
+        url('../fonts/subset-TTNorms-Regular.svg#TTNorms-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family:'TT Norms', sans-serif;
+    min-width: 320px;
+    font-weight: 400;
+}
+
+@import 'variables.scss';
+@import 'header.scss';
+// @import 'main-services.scss';
+// @import 'main-exper.scss';
+// @import 'main-team.scss';
+// @import 'main-cases.scss';
+// @import 'main-clients.scss';
+// @import 'main-public.scss';
+// @import 'footer.scss';
+// @import 'teams.scss';
+// @import 'map';
+// @import 'service.scss';
+@import 'media.scss';
+
+
+

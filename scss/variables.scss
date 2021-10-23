@@ -1,0 +1,148 @@
+%cont{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+%cont_mini {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+$main-soft_color: #686887;
+$primari_color: #FFFFFF;
+$bg_color: #F5F5FA;
+$text_color: #B3B3BA;
+$active_color: #0085FF;
+$separator_color:#E6E6F0;
+$supersoft_color: #323264;
+$accent_color: #F0145A;
+$gradient-red-text_color: $accent_color, #EF8080;
+$regular_color: #24A3FF;
+$grey-bg-alt_color: #EDEDF7;
+$solid_color: #000000;
+$main-regular_color:#323264;
+$main-alt_color: #46466E;
+$border_color: rgba(255, 255, 255, 0.5);
+
+
+%link-map {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+%fon {
+    background-color: $primari_color;
+    color: $text_color;
+}
+
+%lang {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $primari_color;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+}
+
+%outline {
+    background-color: $accent_color;
+}
+
+%point {
+    width: 6px;
+	height: 6px;
+	background-color: $separator_color;
+	border-radius: 50px;
+    content: '';
+    display: inline-block;
+    vertical-align: top;  
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+%dot {
+    width: 16px;
+	height: 16px;
+	border-radius: 50px;
+    content: '';
+    display: block; 
+}
+
+%hero {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+%hero-mini {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+%gradient-color {
+    background: linear-gradient(to right, $gradient-red-text_color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: $accent_color;
+} 
+
+%title-h2 {
+    font-size: 32px;
+    line-height: 38px;
+    color: $primari_color;
+    font-weight: 500;
+}
+
+%title-h3 {
+    font-size: 24px;
+    line-height: 28px;
+    color: $regular_color;
+    font-weight: 500;
+}
+
+%paragraf {
+    font-size: 18px;
+    line-height: 26px;
+    color: $primari_color;
+}
+
+%link {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+%title-4 {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+%paragraf-mini {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+%text {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+%text-page {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+
+
+
+
